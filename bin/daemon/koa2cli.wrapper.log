@@ -1,0 +1,17 @@
+2018-08-25 23:09:08 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\koa2_cli\node_modules\_node-windows@0.1.14@node-windows\lib\wrapper.js --file D:\koa2_cli\bin\www --log "koa2cli wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-25 23:09:08 - Started 17176
+2018-08-25 23:10:23 - Stopping koa2cli.exe
+2018-08-25 23:10:23 - ProcessKill 17176
+2018-08-25 23:10:23 - Shutdown exception
+Message:系统正在关机。 (异常来自 HRESULT:0x8007045B)
+Stacktrace:   在 System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   在 System.Management.ManagementScope.InitializeGuts(Object o)
+   在 System.Management.ManagementScope.Initialize()
+   在 System.Management.ManagementObjectSearcher.Initialize()
+   在 System.Management.ManagementObjectSearcher.Get()
+   在 winsw.WrapperService.GetChildPids(Int32 pid)
+   在 winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   在 winsw.WrapperService.StopIt()
+   在 winsw.WrapperService.OnShutdown()
+2018-08-25 23:11:06 - Starting C:\Program Files\nodejs\node.exe  --harmony D:\koa2_cli\node_modules\_node-windows@0.1.14@node-windows\lib\wrapper.js --file D:\koa2_cli\bin\www --log "koa2cli wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2018-08-25 23:11:06 - Started 7216
