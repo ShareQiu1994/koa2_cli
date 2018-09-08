@@ -8,9 +8,8 @@ const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 
 const index = require('./routes/index')
-const db = require('./routes/db/db')
-const users = require('./routes/users/users')
-const bar = require('./routes/users/bar/bar')
+const users = require('./routes/users/index')
+const news = require('./routes/news/index')
 
 // error handler
 onerror(app)
@@ -40,8 +39,7 @@ app.use(async (ctx, next) => {
 // routes
 app.use(index.routes(), index.allowedMethods());
 app.use(users.routes(),users.allowedMethods());
-app.use(db.routes(),db.allowedMethods());
-app.use(bar.routes(),bar.allowedMethods()); 
+app.use(news.routes(),news.allowedMethods());
 
 // error-handling
 app.on('error', (err, ctx) => {
