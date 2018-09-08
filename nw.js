@@ -4,7 +4,7 @@ var Service = require('node-windows').Service;
 var svc = new Service({
   name:'koa2cli',
   description: 'The nodejs.org example web server.',
-  script: 'D:/koa2_cli/bin/www'
+  script: require('path').join(__dirname,'bin/www')
 });
 
 // Listen for the "install" event, which indicates the
