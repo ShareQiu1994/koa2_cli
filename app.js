@@ -32,7 +32,7 @@ render(app, {
 app.use(async (ctx, next) => {
 
   ctx.state = { //配置全局变量
-      HOST:`http://${ctx.request.header.host}`
+      __HOST__:`http://${ctx.request.header.host}`
    }  
   const start = new Date()
   await next()
