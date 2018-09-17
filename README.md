@@ -1,6 +1,6 @@
 # koa2-cli
 
-> 一个基于koa2的基本脚手架简易服务器
+> 一个基于koa2的脚手架后端模板 
 
 ## Build Setup
 

@@ -8,8 +8,8 @@ const bodyparser = require('koa-bodyparser')
 const logger = require('koa-logger')
 
 const index = require('./routes/index')
-const users = require('./routes/users/index')
-const news = require('./routes/news/index')
+const users = require('./routes/users') 
+const news = require('./routes/news')
 
 // error handler
 onerror(app)
