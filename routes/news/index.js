@@ -4,7 +4,7 @@ router.get('/', async (ctx,next)=>{  //get请求
     await ctx.render('news/index'); //渲染art-template模板  
 });
 
-router.get('/add', async (ctx,next)=>{  //get请求
+router.get('/get', async (ctx,next)=>{  //get请求
     ctx.body = '新闻增加';
 });
 
