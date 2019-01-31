@@ -1,10 +1,10 @@
 # koa2-cli
 
-> 一个基于koa2的脚手架后端模板 
+> 一个基于 koa2 的脚手架(koa-generator)后端模板
 
 ## Build Setup
 
-``` bash
+```bash
 # 安装依赖
 npm install /cnpm install
 
@@ -21,4 +21,4 @@ node uninstall-nw.js
 localhost:3000
 ```
 
-邮箱：421419567@qq.com 请右上角Star 万分感激!(^_^)
+邮箱：421419567@qq.com 请右上角 Star 万分感激!
